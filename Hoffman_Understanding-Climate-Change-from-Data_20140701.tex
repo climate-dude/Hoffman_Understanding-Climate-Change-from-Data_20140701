@@ -1,0 +1,233 @@
+\documentclass{beamer}
+\usepackage{beamerthemesplit}
+\usepackage[multidot]{grffile}
+\usepackage{subfigure}
+\usepackage{epstopdf}
+% This package:
+\usepackage{textcomp}
+% provides a greek \mu symbol in a Roman font using \hbox{\textmu}
+% and this is useful for ``micro'' (10^-6) prefix for various units in text.
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,~}
+\usepackage{booktabs,supertabular,dcolumn,pifont}
+\usepackage{rotating}
+\usepackage{soul,rotating,multirow}
+\newcolumntype{d}{D{.}{.}{2.5}}
+\newcolumntype{s}{D{.}{.}{1.2}}
+\newcolumntype{i}{D{.}{.}{3.0}}
+\definecolor{ipccgreen}{rgb}{0.43,0.68,0.43}
+\definecolor{DarkGreen}{rgb}{0.0,0.70,0.0}
+\definecolor{CCSIGreen}{rgb}{0.16,0.46,0.29}
+\definecolor{CCSILightGreen}{rgb}{0.90,1.0,0.80}
+\definecolor{DarkRed}{rgb}{0.60,0.00,0.00}
+\definecolor{DarkBlue}{rgb}{0.0,0.0,0.6}
+\definecolor{Gold}{rgb}{0.57,0.49,0.23}
+\definecolor{AGUmagenta}{rgb}{0.71 0.13 0.09} % #b52217
+\newcommand{\rul}[1]{{\color{red}\underline{\color{black} #1}}}
+\newcommand{\CCCCMIP}{C$^4$MIP\index{Coupled Climate-Carbon Cycle Model Intercomparison Project}} % Print the abbreviation and index the full name
+
+\mode<presentation>
+{
+ %
+ % Themes without navigation bar:
+ %\usetheme{default}
+  \usetheme{boxes}
+ %\usetheme{classic}
+ %\usetheme{Bergen}
+ %\usetheme{Madrid}
+ %\usetheme{Pittsburgh}
+ %\usetheme{Rochester}
+ %
+ % Themes with a tree-like navigation bar:
+ %\usetheme{Antibes}
+ %\usetheme{JuanLesPins}
+ %\usetheme{Montpellier}
+ %
+ % Themes with a TOC sidebar
+ %\usetheme{Berkeley}
+ %\usetheme{PaloAlto}
+ %\usetheme{Goettingen}
+ %\usetheme{Marburg}
+ %\usetheme{Hannover}
+ %
+ % Themes with mini frame navigation
+ %\usetheme{Berlin}
+ %\usetheme{Ilmenau}
+ %\usetheme{Dresden}
+ %\usetheme{Darmstadt}
+% \usetheme{Frankfurt}% Pretty good
+ %\usetheme{Singapore}
+ %\usetheme{Szeged}
+ %
+ % Themes with section and subsection titles:
+ %\usetheme{Copenhagen}
+ %\usetheme{Luebeck}
+ %\usetheme{Malmoe}
+ %\usetheme{Warsaw}
+ %
+ %\usecolortheme{lily}
+ %
+ %\usefonttheme{sans}
+ %\usefonttheme{serif}
+ %\usefonttheme{structurebold}
+ %\beamersetaveragebackground{black}
+ %\beamertemplatesolidbackgroundcolor{black}
+ %\beamertemplateshadingbackground{blue}{white}
+}
+
+\setbeamertemplate{blocks}[rounded][shadow=true]
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+% Set the foreground color to CCSI's green
+\setbeamercolor{structure}{fg=CCSIGreen}
+\setbeamercolor{block title}{bg=CCSIGreen,fg=white}
+\setbeamercolor{block body}{bg=CCSILightGreen,fg=black}
+
+\title{Representativeness-based Sampling Network Design for NGEE and Identifying Phenoregions for the Conterminous U.S.}
+\author{Forrest~M.~Hoffman$^{\dag\ddag}$, Jitendra~Kumar$^\dag$, Damian~Maddalena$^\dag$, and William~W.~Hargrove*}
+\institute{$^\dag$Oak~Ridge~National~Laboratory, $^\ddag$University~of~California-Irvine, and *USDA~Forest~Service, Eastern Forest Environmental Threat Assessment Center (EFETAC)}
+\date{July 1, 2014}
+
+%\AtBeginSection[]
+%{
+%   \begin{frame}<beamer>
+%   \frametitle{Outline}
+%   \tableofcontents[currentsection,currentsubsection]
+%   \end{frame}
+%}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Normal Title Slide
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{nccs_annual_report2}}
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{plumes4}}
+%
+%\begin{frame}
+ %\setbeamercolor{alerted text}{fg=white}
+% \titlepage
+%  \vfill
+% \includegraphics[width=0.18\paperwidth]{images/ORNL}\hfill\includegraphics[width=0.30\paperwidth]{images/CCSI_color_flattened}
+%\end{frame}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CCSI Title Slide
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{backgrounds/CCSI_title_background.pdf}}
+\begin{frame}
+ %\vskip-0.250in
+ \vskip0.05in
+ \parbox{0.5\textwidth}{\Large\raggedright\color{CCSIGreen}\bf
+  % Put the title here:
+  \inserttitle
+ }
+ \vskip0.10in
+ \parbox{0.45\textwidth}{\scriptsize\raggedright\bf
+  % Put the author list or subtitle here:
+  \insertauthor
+ }
+ \vskip0.05in
+ \parbox{0.45\textwidth}{\scriptsize\raggedright
+  % Put the institution list here:
+  \insertinstitute
+ }
+ %\vskip0.5in
+ %\parbox{0.5\textwidth}{\small\raggedright\color{CCSIGreen}\bf
+ % \insertinstitute
+ %}
+ \vskip0.10in
+ \parbox{0.6\textwidth}{\scriptsize\raggedright\bf
+  {\color{DarkBlue}
+  Fourth Workshop on Understanding Climate Change from Data, Boulder, Colorado, USA
+  } \\
+ }
+ \vskip0.10in
+ \parbox{0.5\textwidth}{\footnotesize\raggedright\bf
+  \insertdate
+ }
+ %\vbox{\vspace{0.05in}\hspace{1.50in}\includegraphics[width=0.25\textwidth]{logos/ucirvine_07_sol_seal_lt_289.jpg}}
+ \vbox{
+  %\vspace{-0.20in}\hspace{2.10in}\includegraphics[width=0.12\textwidth]{logos/USFS_Logo.png}}
+  \vspace{-0.20in}\hspace{1.00in}\includegraphics[height=0.15\textheight]{logos/uci_peter.png}\hspace{0.15in}\includegraphics[height=0.15\textheight]{logos/USFS_Logo.png}}
+ %\vbox{
+ % \vspace{-0.50in}\hspace{2.10in}\includegraphics[width=0.125\textwidth]{logos/ess_logo_white.pdf} \\
+ % \hspace{1.60in}\includegraphics[width=0.25\textwidth]{logos/ucirvine_07_sol_seal_lt_289.jpg}}
+\end{frame}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Data Mining for Climate Change Model Intercomparison (view on browser)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section[Model Intercomparison]{Data Mining for Climate Change Model Intercomparison}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}
+% %\frametitle{}
+% \begin{center}
+%  \textbf{\Huge\color{CCSIGreen}Data Mining for Climate Change Model Intercomparison} \\
+%  \vskip1in
+%  \cite{Hoffman_EI_20050803}
+% \end{center}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sampling Domain Representativeness
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[Representativeness]{Sampling Domain Representativeness}
+\input{ngee_representativeness}
+\subsection[Barrow]{Barrow Environmental Observatory Representativeness}
+\input{beo_representativeness}
+\subsection[NGEE Tropics]{NGEE Tropics Representativeness}
+\input{ngee_tropics_representativeness}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified version of Forrest's US-IALE 2013 talk on phenregions,
+% mapcurves, and label stealing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[ForWarn]{The ForWarn Early Warning System}
+\input{ForWarn}
+\section[Phenoregions]{Identifying Phenoregion for the Conterminous U.S.}
+\input{phenoregions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Estimating Tree Species Ranges using Associative Clustering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section[Tree Ranges]{Estimating Tree Species Ranges from Forest Inventories}
+%\input{tree_ranges}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% A Clustering Approach to Model-Data Comparison
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section[Model-Data Comparison]{A Clustering Approach to Model-Data Comparison}
+%\input{arm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AGU Fall Meeting Session
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[AGU Advert]{AGU Fall Meeting Session Advertisement}
+\input{agu_session}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgments
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Acknowledgments}
+\input{ack}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% References
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{References}
+\input{refs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

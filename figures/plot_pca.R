@@ -1,0 +1,20 @@
+dpm_noleap       <- c(31,28,31,30,31,30,31,31,30,31,30,31)
+taxis <- cumsum(dpm_noleap) - dpm_noleap/2
+tlab <- c('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec')
+#
+data <- read.table('sim_colors2.csv',header=TRUE,sep=',')
+x <- (1:46)*8-4
+pdf(file='phenology_2000-2012_pc.pdf',width=9,height=6.5)
+par(cex=1.2)
+plot(x,data$PC3,type='n',ylim=c(-0.2,0.3),col='red',lwd=2,ylab='Principal Component Loading',xlab='Month of Year',xaxt='n',yaxt='n')
+axis(1,at=taxis,labels=tlab)
+axis(2,at=seq(-0.2,0.3,by=0.1))
+axis(3,at=taxis,labels=tlab)
+axis(4,at=seq(-0.2,0.3,by=0.1))
+#grid()
+abline(h=0,col='gray')
+lines(x,data$PC1,col='green',lwd=2)
+lines(x,data$PC2,col='blue',lwd=2)
+lines(x,data$PC3,col='red',lwd=2)
+legend('topleft',c('PC1','PC2','PC3'),lwd=c(2,2,2),col=c('green','blue','red'),bg='white')
+dev.off()

@@ -274,3 +274,7 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# Added by Forrest Hoffman on Sun 22 May 2022 04:44:45 PM EDT
+# Specific to this repo:
+Hoffman_Understanding-Climate-Change-from-Data_20140701.pdf

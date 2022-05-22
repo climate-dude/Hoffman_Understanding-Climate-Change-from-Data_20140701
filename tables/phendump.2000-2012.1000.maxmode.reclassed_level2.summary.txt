@@ -1,0 +1,198 @@
+Cat Label Area %Area
+176  Subboreal [Map- fvvcode] 414600000000.000000 5.28%
+179  Subtropical [Map- fvvcode] 333525000000.000000 4.25%
+73  Evergreen_Coniferous_Forest [Map- landcover.usgs] 980 Evergreen_forest [Map- NLCD2006_240m_laea] 635 Evergreen_Needleleaf_Forest [Map- defriesumdvegetation] 487 Evergreen_Needleleaf_Trees [Map- landcover.bats] 961 conifer_forest [Map- landcover.oge] 554 Temperate_Needleleaf_Evergreen_Forest/Woodland [Map- foleylandcover] 304225000000.000000 3.87%
+67  Open_Shrubland [Map- foleylandcover] 814 Open_Shrublands [Map- landcover.igbp] 996 Shrubland [Map- landcover.usgs] 805 Shrub/scrub [Map- NLCD2006_240m_laea] 293325000000.000000 3.74%
+35  corn_and_beans_cropland [Map- landcover.oge] 74 Maize [Map- wilsonhendersonsellersprimaryveg] 922 Cropland_(Corn_and_Soybeans) [Map- landcover.slcr] 272950000000.000000 3.48%
+29  cool_conifer_forest [Map- landcover.oge] 229775000000.000000 2.93%
+32  Cool_temperate_moist_forest [Map- holdridgezonesnormal] 929 Cool_Temperate_Moist_Forest [Map- leemansholdridgezones] 200050000000.000000 2.55%
+64  Desert_Shrubland/Grassland_(Creosote,_Saltbush,_Mesquite,_Sand_Sage) [Map- landcover.slcr] 178575000000.000000 2.27%
+55  Deciduous_Forest_(Oak,_Hickory,_Sweet_Gum,_Southern_Pines)_with_Cropland_and_Pasture [Map- landcover.slcr] 176975000000.000000 2.25%
+28  cool_broadleaf_forest [Map- landcover.oge] 175250000000.000000 2.23%
+66  Sparsely_Vegetated_Desert_Shrublands [Map- landcover.slcr] 905 semi_desert_shrubs [Map- landcover.oge] 168175000000.000000 2.14%
+188  Warm_temperate_moist_forest [Map- holdridgezonesnormal] 947 Warm_Temperate_Moist_Forest [Map- leemansholdridgezones] 161875000000.000000 2.06%
+180  Subtropical_moist_forest [Map- holdridgezonesnormal] 96 Subtropical_Moist_Forest [Map- leemansholdridgezones] 161225000000.000000 2.05%
+160  semi_desert_sage [Map- landcover.oge] 146500000000.000000 1.87%
+50  NASS-Row_Crop [Map- landfire_vegetation_type] 144625000000.000000 1.84%
+23  Cold-deciduous_forest,_without_evergreens [Map- matthewsvegetation] 142575000000.000000 1.82%
+48  Cultivated_Cropland [Map- GAP_240m_laea] 999 Cultivated_crops [Map- NLCD2006_240m_laea] 136850000000.000000 1.74%
+178  Subtropical_dry_forest [Map- holdridgezonesnormal] 964 Subtropical_Dry_Forest [Map- leemansholdridgezones] 120575000000.000000 1.54%
+86  Grassland/Steppe [Map- foleylandcover] 116725000000.000000 1.49%
+136  Water [Map- landcover.slcr] 832 Open_Water [Map- landfire_vegetation_type] 977 Open_water [Map- NLCD2006_240m_laea] 968 water [Map- ktlamb] 112500000000.000000 1.43%
+103  Laurentian-Acadian_Northern_Hardwoods_Forest [Map- landfire_vegetation_type] 106750000000.000000 1.36%
+72  Evergreen/Deciduous_Mixed_Forest/Woodland [Map- foleylandcover] 881 Southern_mixed_forest [Map- ktlamb] 914 Mixed_Forest_(Oak,_Pine_Species) [Map- landcover.slcr] 105050000000.000000 1.34%
+78  Evergreen_Needleleaf_Forest_(Loblolly,_Slash_Pine)_with_Hardwoods_(Gum,_Cypress) [Map- landcover.slcr] 104325000000.000000 1.33%
+65  Desert_Shrublands_(Creosote,_Saltbush,_Sand_Sage)_Sonoran [Map- landcover.slcr] 101775000000.000000 1.30%
+33  Cool_temperate_steppe [Map- holdridgezonesnormal] 68 Cool_Temperate_Steppe [Map- leemansholdridgezones] 100750000000.000000 1.28%
+130  Oak/Hickory/Pine [Map- ktlamb] 94875000000.000000 1.21%
+111  Mixed_Rangeland_(Grassland_and_Shrubland) [Map- landcover.slcr] 835 Mixed_Shrubland/Grassland [Map- landcover.usgs] 783 hot_and_mild_grasses_and_shrubs [Map- landcover.oge] 93025000000.000000 1.18%
+195  Wheatgrass/Needlegrass [Map- ktlamb] 86000000000.000000 1.10%
+52  Pasture/Hay [Map- GAP_240m_laea] 40 Pasture/hay [Map- NLCD2006_240m_laea] 629 Grassland_with_Cropland_(Small_Grains,_Pasture) [Map- landcover.slcr] 653 Agriculture-Pasture_and_Hay [Map- landfire_vegetation_type] 80625000000.000000 1.03%
+60  Temperate_Deciduous_Forest/Woodland [Map- foleylandcover] 410 Deciduous_forest [Map- NLCD2006_240m_laea] 75700000000.000000 0.96%
+187  Warm_temperate_dry_forest [Map- holdridgezonesnormal] 931 Warm_Temperate_Dry_Forest [Map- leemansholdridgezones] 72525000000.000000 0.92%
+116  Nebraska_sandhills [Map- ktlamb] 813 Nebraska_Sand_Hills,_MLRA_65 [Map- mlra] 69575000000.000000 0.89%
+24  Colorado_Plateau_Pinyon-Juniper_Woodland [Map- landfire_vegetation_type] 67475000000.000000 0.86%
+82  Grama/Buffalo_grass [Map- ktlamb] 65700000000.000000 0.84%
+77  Evergreen_Needleleaf_Forest_(Douglas_Fir,_Western_Hemlock,_Ponderosa_Pine) [Map- landcover.slcr] 65125000000.000000 0.83%
+53  Grassland/Woodland_(Oak)_Mosaic_with_Cropland [Map- landcover.slcr] 61675000000.000000 0.79%
+36  Cropland_(Corn,_Soybeans,_Cotton,_Rice)_with_Woodlands [Map- landcover.slcr] 59450000000.000000 0.76%
+190  Western_Great_Plains_Shortgrass_Prairie [Map- landfire_vegetation_type] 59450000000.000000 0.76%
+3  Barren [Map- landcover.slcr] 713 Barren_or_Sparsely_Vegetated [Map- landcover.usgs] 55675000000.000000 0.71%
+98  Inter-Mountain_Basins_Montane_Sagebrush_Steppe [Map- GAP_240m_laea] 536 Sagebrush_steppe [Map- ktlamb] 55175000000.000000 0.70%
+83  Grama/Needlegrass/Wheatgrass [Map- ktlamb] 53300000000.000000 0.68%
+115  Mountains [Map- fvvcode] 52925000000.000000 0.67%
+161  Short_Grass [Map- landcover.bats] 52400000000.000000 0.67%
+113  Mixed_Rangeland_(Saltbush,_Sand_Sage,_Rabbitbrush) [Map- landcover.slcr] 49075000000.000000 0.63%
+128  Northwestern_Great_Plains_Mixedgrass_Prairie [Map- landfire_vegetation_type] 47225000000.000000 0.60%
+135  Open_Water_(Fresh) [Map- GAP_240m_laea] 668 inland_water [Map- landcover.oge] 46000000000.000000 0.59%
+139  Pecos-Canadian_Plains_and_Valleys,_MLRA_70 [Map- mlra] 45475000000.000000 0.58%
+31  cool_mixed_forest [Map- landcover.oge] 45125000000.000000 0.57%
+5  Boreal_Evergreen_Forest/Woodland [Map- foleylandcover] 43025000000.000000 0.55%
+4  Bluestem/Grama [Map- ktlamb] 285 Bluestem_Hills,_MLRA_76 [Map- mlra] 42400000000.000000 0.54%
+174  Southern_Rocky_Mountain_Ponderosa_Pine_Woodland [Map- GAP_240m_laea] 42200000000.000000 0.54%
+110  Mixed_Rangeland_(Big_Sage,_Rabbitbrush,_Needlegrass) [Map- landcover.slcr] 41425000000.000000 0.53%
+123  Northern_Rocky_Mountains,_MLRA_43 [Map- mlra] 41400000000.000000 0.53%
+93  Gulf_and_Atlantic_Coastal_Plain_Floodplain_Systems [Map- landfire_vegetation_type] 39400000000.000000 0.50%
+6  Boreal [Map- fvvcode] 38650000000.000000 0.49%
+37  Cropland_(Corn,_Soybeans,_Pasture)/Woodland_(Oak,_Hickory)_Mosaic [Map- landcover.slcr] 38175000000.000000 0.49%
+57  Deciduous_Forest_(Maple,_Beech,_Birch,_Oak,_Hickory)_with_Pasture [Map- landcover.slcr] 38075000000.000000 0.48%
+69  dry_woody_scrub [Map- landcover.oge] 35850000000.000000 0.46%
+117  Northeastern_Mountains,_MLRA_143 [Map- mlra] 34800000000.000000 0.44%
+99  Iowa_and_Missouri_Heavy_Till_Plain,_MLRA_109 [Map- mlra] 34075000000.000000 0.43%
+109  Mixed_mesophytic [Map- ktlamb] 33675000000.000000 0.43%
+25  Columbia_Plateau,_MLRA_8 [Map- mlra] 32750000000.000000 0.42%
+133  Oak_Woodlands [Map- landcover.slcr] 31325000000.000000 0.40%
+173  Southern_Mississippi_Valley_Alluvium,_MLRA_131 [Map- mlra] 30375000000.000000 0.39%
+101  Juniper/Pinyon [Map- ktlamb] 30300000000.000000 0.39%
+100  Juniper/Oak_savanna [Map- ktlamb] 28700000000.000000 0.37%
+41  Cropland/Woodland_(Maple,_Beech,_Birch)_Mosaic [Map- landcover.slcr] 27300000000.000000 0.35%
+68  Developed,_low_intensity [Map- NLCD2006_240m_laea] 26150000000.000000 0.33%
+141  Ponderosa_Pine_and_Pinyon_Juniper_Woodland [Map- landcover.slcr] 26075000000.000000 0.33%
+40  Cropland_(Small_Grains,_Pasture)_with_Deciduous_Woodlands [Map- landcover.slcr] 25425000000.000000 0.32%
+172  Southern_High_Plains,_Southern_Part_(proposed),_MLRA_77C [Map- mlra] 25275000000.000000 0.32%
+184  Temperate_rough_grazing [Map- wilsonhendersonsellersprimaryveg] 23425000000.000000 0.30%
+1  Acadian_Low-Elevation_Spruce-Fir-Hardwood_Forest [Map- landfire_vegetation_type] 23250000000.000000 0.30%
+90  Meadow,_short_grassland,_no_woody_cover [Map- matthewsvegetation] 23200000000.000000 0.30%
+84  Grassland [Map- landcover.usgs] 22925000000.000000 0.29%
+46  Crops,_Mixed_Farming [Map- landcover.bats] 22775000000.000000 0.29%
+85  Grassland_(Short_mid_Grass_Prairie) [Map- landcover.slcr] 22750000000.000000 0.29%
+62  Creosote_brush [Map- ktlamb] 22650000000.000000 0.29%
+144  Red_River_Valley_of_the_North,_MLRA_56 [Map- mlra] 22475000000.000000 0.29%
+61  Deciduous_Woodlands_(Aspen)/Shrublands_(Mountain_Mahogany) [Map- landcover.slcr] 22075000000.000000 0.28%
+16  Central_High_Tableland,_MLRA_72 [Map- mlra] 20975000000.000000 0.27%
+97  Inter-Mountain_Basins_Mixed_Salt_Desert_Scrub [Map- GAP_240m_laea] 19900000000.000000 0.25%
+20  Chaparral [Map- ktlamb] 160 Northern_and_Central_California_Dry-Mesic_Chaparral [Map- landfire_vegetation_type] 19625000000.000000 0.25%
+147  Rocky_Mountain_Aspen_Forest_and_Woodland [Map- landfire_vegetation_type] 19600000000.000000 0.25%
+45  Cropland_(Winter_Wheat) [Map- landcover.slcr] 18175000000.000000 0.23%
+10  California_Central_Valley_and_Southern_Coastal_Grassland [Map- GAP_240m_laea] 17675000000.000000 0.23%
+34  Cropland [Map- defriesumdvegetation] 5 Croplands [Map- landcover.igbp] 17575000000.000000 0.22%
+30  cool_grasses_and_shrubs [Map- landcover.oge] 16700000000.000000 0.21%
+8  Broadleaf_Deciduous_Forest [Map- landcover.usgs] 16500000000.000000 0.21%
+91  Great_Basin_Pinyon-Juniper_Woodland [Map- landfire_vegetation_type] 15850000000.000000 0.20%
+96  Illinois_and_Iowa_Deep_Loess_and_Drift,_MLRA_108 [Map- mlra] 15750000000.000000 0.20%
+163  Sonoran_Paloverde-Mixed_Cacti_Desert_Scrub [Map- landfire_vegetation_type] 15725000000.000000 0.20%
+12  California_oakwoods [Map- ktlamb] 15625000000.000000 0.20%
+132  Oak_Savanna [Map- landcover.slcr] 15350000000.000000 0.20%
+63  Desert_Shrubland_(Creosote,_Saltbush,_Mesquite,_Cactus)_with_Grasses [Map- landcover.slcr] 15300000000.000000 0.19%
+9  Brown_Glaciated_Plain,_MLRA_52 [Map- mlra] 15025000000.000000 0.19%
+58  Crosstimbers_Oak_Forest_and_Woodland [Map- landfire_vegetation_type] 15000000000.000000 0.19%
+148  Rocky_Mountain_Dry_Tundra [Map- GAP_240m_laea] 14225000000.000000 0.18%
+38  Cropland_(Mixed_Row_Crops)_with_Woodland [Map- landcover.slcr] 13925000000.000000 0.18%
+171  Southern_High_Plains,_Breaks_(proposed),_MLRA_77E [Map- mlra] 13600000000.000000 0.17%
+159  Semidesert [Map- landcover.bats] 13400000000.000000 0.17%
+122  Northern_Rocky_Mountain_Ponderosa_Pine_Woodland_and_Savanna [Map- landfire_vegetation_type] 13350000000.000000 0.17%
+112  Mixed_Rangeland_(Grassland/Shrubland) [Map- landcover.slcr] 13125000000.000000 0.17%
+186  Upper_Snake_River_Lava_Plains_and_Hills,_MLRA_10 [Map- mlra] 13100000000.000000 0.17%
+153  Rocky_Mountain_Subalpine_Mesic-Wet_Spruce-Fir_Forest_and_Woodland [Map- landfire_vegetation_type] 13075000000.000000 0.17%
+43  Cropland_(Small_Grains)_with_Grasslands [Map- landcover.slcr] 12900000000.000000 0.16%
+87  Grassland_(Tall_Grass_Prairie) [Map- landcover.slcr] 12200000000.000000 0.16%
+170  Southern_Florida_Flatwoods,_MLRA_155 [Map- mlra] 12000000000.000000 0.15%
+21  Cherokee_Prairies,_MLRA_112 [Map- mlra] 11750000000.000000 0.15%
+92  Great_Lakes_spruce/Fir [Map- ktlamb] 11275000000.000000 0.14%
+189  Western_Great_Plains_Mesquite_Woodland_and_Shrubland [Map- GAP_240m_laea] 11275000000.000000 0.14%
+181  Subtropical_Thorn_Steppe [Map- leemansholdridgezones] 11200000000.000000 0.14%
+81  Fescue/Wheatgrass [Map- ktlamb] 10975000000.000000 0.14%
+44  Grassland_with_Cropland [Map- landcover.slcr] 10775000000.000000 0.14%
+56  Deciduous_Forest_(Maple,_Beech,_Birch)_with_Cropland_(Pasture,_Hay) [Map- landcover.slcr] 10725000000.000000 0.14%
+192  Western_Rio_Grande_Plain,_MLRA_83B [Map- mlra] 10625000000.000000 0.14%
+154  Rolling_Plains_and_Breaks,_MLRA_73 [Map- mlra] 10550000000.000000 0.13%
+158  Savanna [Map- foleylandcover] 918 savanna_(woods) [Map- landcover.oge] 10500000000.000000 0.13%
+22  Cold-deciduous_forest,_with_evergreens [Map- matthewsvegetation] 10250000000.000000 0.13%
+183  Temperate/subpolar_evergreen_needleleaved_forest [Map- matthewsvegetation] 10200000000.000000 0.13%
+70  Edwards_Plateau_Limestone_Savanna_and_Woodland [Map- GAP_240m_laea] 9775000000.000000 0.12%
+42  Cropland/Natural_Vegetation_Mosaic [Map- landcover.igbp] 9500000000.000000 0.12%
+54  Woodland/Cropland_Mosaic [Map- landcover.usgs] 9475000000.000000 0.12%
+142  Ponderosa_shrub [Map- ktlamb] 9150000000.000000 0.12%
+89  Medium_grassland,_no_woody_cover [Map- matthewsvegetation] 8875000000.000000 0.11%
+76  Evergreen_Needleleaf_Forest_(Douglas_Fir,_Ponderosa_Pine,_Redwoods) [Map- landcover.slcr] 8525000000.000000 0.11%
+156  Sacramento_and_San_Joaquin_Valleys,_MLRA_17 [Map- mlra] 8525000000.000000 0.11%
+118  Northern_Dark_Brown_Glaciated_Plains,_MLRA_53A [Map- mlra] 8150000000.000000 0.10%
+114  Mosaic_of_#2_&_#26 [Map- ktlamb] 8025000000.000000 0.10%
+185  Trans-pecos_shrub_savanna [Map- ktlamb] 7975000000.000000 0.10%
+155  Rolling_Soft_Shale_Plain,_MLRA_54 [Map- mlra] 7950000000.000000 0.10%
+26  Columbia_Plateau_Western_Juniper_Woodland_and_Savanna [Map- GAP_240m_laea] 7350000000.000000 0.09%
+107  Mesquite/Acacia_savanna [Map- ktlamb] 7250000000.000000 0.09%
+196  Willamette_and_Puget_Sound_Valleys,_MLRA_2 [Map- mlra] 7050000000.000000 0.09%
+177  Subtropical_desert_scrub [Map- holdridgezonesnormal] 6900000000.000000 0.09%
+131  Oak/Juniper_woodland [Map- ktlamb] 6775000000.000000 0.09%
+124  Northern_Rocky_Mountain_Subalpine_Woodland_and_Parkland [Map- landfire_vegetation_type] 6625000000.000000 0.08%
+88  Grassland_(Warm_Season_Grasses) [Map- landcover.slcr] 6575000000.000000 0.08%
+167  Southern_Coastal_Plain,_MLRA_133A [Map- mlra] 6500000000.000000 0.08%
+104  Madrean_Pinyon-Juniper_Woodland [Map- landfire_vegetation_type] 6450000000.000000 0.08%
+164  Southeastern_Arizona_Basin_and_Range,_MLRA_41 [Map- mlra] 6150000000.000000 0.08%
+151  Rocky_Mountain_Subalpine_Dry-Mesic_Spruce-Fir_Forest_and_Woodland [Map- landfire_vegetation_type] 6000000000.000000 0.08%
+166  Southern_California_Mountains,_MLRA_20 [Map- mlra] 5975000000.000000 0.08%
+191  Western_ponderosa [Map- ktlamb] 5825000000.000000 0.07%
+75  Evergreen_Needleleaf_Forest_(Douglas_Fir,_Ponderosa,_Jeffrey_Pine) [Map- landcover.slcr] 5675000000.000000 0.07%
+129  Oak/Hickory [Map- ktlamb] 5675000000.000000 0.07%
+197  Woody_wetlands [Map- NLCD2006_240m_laea] 5650000000.000000 0.07%
+145  Rocky_Mountain_Alpine_Bedrock_and_Scree [Map- GAP_240m_laea] 5650000000.000000 0.07%
+7  Boreal_moist_forest [Map- holdridgezonesnormal] 5550000000.000000 0.07%
+27  Conifer_bog [Map- ktlamb] 5400000000.000000 0.07%
+105  Mediterranean_California_Mesic_Mixed_Conifer_Forest_and_Woodland [Map- landfire_vegetation_type] 5275000000.000000 0.07%
+152  Rocky_Mountain_Subalpine_Mesic_Spruce-Fir_Forest_and_Woodland [Map- GAP_240m_laea] 5125000000.000000 0.07%
+11  California_Central_Valley_Mixed_Oak_Savanna [Map- GAP_240m_laea] 5125000000.000000 0.07%
+19  Central_Wisconsin_and_Minnesota_Thin_Loess_and_Till,_MLRA_90 [Map- mlra] 5100000000.000000 0.06%
+94  Gulf_Coast_Prairies,_MLRA_150A [Map- mlra] 4975000000.000000 0.06%
+59  Deciduous_Forest_(Aspen) [Map- landcover.slcr] 4925000000.000000 0.06%
+182  Subtropical_thorn_woodland [Map- holdridgezonesnormal] 4900000000.000000 0.06%
+175  Southern_Rocky_Mountains,_MLRA_48A [Map- mlra] 4850000000.000000 0.06%
+137  Ozark_Border,_MLRA_116B [Map- mlra] 4600000000.000000 0.06%
+39  Cropland/Deciduous_Forest_(Aspen)_Mosaic [Map- landcover.slcr] 4475000000.000000 0.06%
+140  Pinyon-Juniper_Woodland [Map- landcover.slcr] 4375000000.000000 0.06%
+194  Wheatgrass/Bluegrass [Map- ktlamb] 4225000000.000000 0.05%
+169  Southern_Desertic_Basins,_Plains,_and_Mountains,_MLRA_42 [Map- mlra] 3775000000.000000 0.05%
+193  Western_spruce/Fir [Map- ktlamb] 3475000000.000000 0.04%
+165  Southern_Black_Glaciated_Plains,_MLRA_55C [Map- mlra] 3425000000.000000 0.04%
+74  Needleleaf_Forest_(Douglas_Fir,_Lodgepole_Pine,_Western_White_Pine) [Map- landcover.slcr] 3200000000.000000 0.04%
+49  NASS-Close_Grown_Crop [Map- landfire_vegetation_type] 3025000000.000000 0.04%
+149  Rocky_Mountain_Gambel_Oak-Mixed_Montane_Shrubland [Map- GAP_240m_laea] 2975000000.000000 0.04%
+71  Everglades [Map- ktlamb] 608 Florida_Everglades_and_Associated_Areas,_MLRA_156A [Map- mlra] 2850000000.000000 0.04%
+138  Palouse_and_Nez_Perce_Prairies,_MLRA_9 [Map- mlra] 2725000000.000000 0.03%
+108  Mesquite/Buffalo_grass [Map- ktlamb] 2625000000.000000 0.03%
+18  Central_Rolling_Red_Prairies,_MLRA_80A [Map- mlra] 2525000000.000000 0.03%
+14  Central_California_Coast_Range,_MLRA_15 [Map- mlra] 2475000000.000000 0.03%
+127  North_Pacific_Mountain_Hemlock_Forest [Map- landfire_vegetation_type] 2425000000.000000 0.03%
+15  Central_High_Plains,_MLRA_67 [Map- mlra] 2300000000.000000 0.03%
+13  California_steppe [Map- ktlamb] 2250000000.000000 0.03%
+119  Northern_hardwoods/Fir [Map- ktlamb] 2050000000.000000 0.03%
+162  Snake_River_Plains,_MLRA_11 [Map- mlra] 2025000000.000000 0.03%
+146  Rocky_Mountain_Alpine_Turf [Map- landfire_vegetation_type] 1825000000.000000 0.02%
+150  Rocky_Mountain_Lodgepole_Pine_Forest [Map- GAP_240m_laea] 1775000000.000000 0.02%
+121  Northern_Rocky_Mountain_Mesic_Montane_Mixed_Conifer_Forest [Map- landfire_vegetation_type] 1750000000.000000 0.02%
+168  Southern_Dark_Brown_Glaciated_Plains,_MLRA_53C [Map- mlra] 1575000000.000000 0.02%
+17  Central_Rio_Grande_Plain,_MLRA_83C [Map- mlra] 1450000000.000000 0.02%
+95  High_Intermountain_Valleys,_MLRA_51 [Map- mlra] 1275000000.000000 0.02%
+47  Irrigated_Agriculture [Map- landcover.slcr] 1250000000.000000 0.02%
+126  North_Pacific_Mesic_Western_Hemlock-Silver_Fir_Forest [Map- GAP_240m_laea] 1100000000.000000 0.01%
+120  Northern_hardwoods/Spruce [Map- ktlamb] 1050000000.000000 0.01%
+102  Laurentian-Acadian_Alkaline_Conifer-Hardwood_Swamp [Map- landfire_vegetation_type] 1025000000.000000 0.01%
+51  NASS-Vineyard [Map- landfire_vegetation_type] 975000000.000000 0.01%
+2  Alpine_meadows_&_barren [Map- ktlamb] 750000000.000000 0.01%
+143  Pseudotsuga_menziesii_Forest_Alliance [Map- landfire_vegetation_type] 675000000.000000 0.01%
+134  Olympic_and_Cascade_Mountains,_MLRA_3 [Map- mlra] 650000000.000000 0.01%
+79  Evergreen_Needleleaf_Forest_(Lodgepole_Pine_and_Douglas_Fir) [Map- landcover.slcr] 450000000.000000 0.01%
+125  North_Pacific_Maritime_Mesic_Subalpine_Parkland [Map- GAP_240m_laea] 350000000.000000 0.00%
+80  Evergreen_Needleleaf_Forest_(Lodgepole_Pine,_Englemann_Spruce,_Ponderosa_Pine) [Map- landcover.slcr] 325000000.000000 0.00%
+157  Saltbrush/Greasewood [Map- ktlamb] 200000000.000000 0.00%
+106  Mediterranean_California_Red_Fir_Forest [Map- GAP_240m_laea] 175000000.000000 0.00%
